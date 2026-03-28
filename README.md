@@ -189,6 +189,8 @@ Enter the wall clock time at which the timer should reach zero. KUMA calculates 
 | **CANCEL WARP** | Restore normal 1-second tick speed |
 
 > You can apply Time Warp before starting the timer — it will be active from the first tick. You can also change it while the timer is running.
+>
+> Time Warp cancels automatically when the timer reaches 0:00 and enters overtime. The timer then continues counting at normal speed.
 
 ---
 

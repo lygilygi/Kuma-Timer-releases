@@ -57,6 +57,27 @@ xattr -cr "/Applications/KUMA Timer.app"
 
 ---
 
+## Windows Security Warning (Smart App Control)
+
+On Windows 11 you may see:
+
+> *"Smart App Control blocked an app that may be unsafe"*
+
+This happens because KUMA Timer is not signed with a code-signing certificate. The app is safe — this is a standard Windows restriction for indie software distributed outside the Microsoft Store.
+
+**To unblock and run it:**
+1. Right-click the installer file → **Properties**
+2. At the bottom of the **General** tab, find the Security section:
+   *"This file came from another computer and might be blocked..."*
+3. Check **Unblock** → click **Apply** → **OK**
+4. Run the installer normally
+
+You only need to do this once.
+
+> If the Unblock checkbox is not visible, Smart App Control may be in strict enforcement mode. In that case go to **Windows Security → App & Browser Control → Smart App Control Settings** and set it to **Off**, install KUMA Timer, then re-enable it.
+
+---
+
 ## Support the Project
 
 ![Buy me a coffee](coffee.png)

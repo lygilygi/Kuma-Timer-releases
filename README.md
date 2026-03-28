@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.18
+**The Bold & Alert Clock System** · Version 1.5.19
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 

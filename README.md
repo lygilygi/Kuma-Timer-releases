@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.4.5
+**The Bold & Alert Clock System** · Version 1.4.6
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
@@ -199,6 +199,12 @@ Open with the **⚙ cogwheel** button at the bottom left.
 
 ### Overtime
 - Behavior, message, background color, blink, OSC trigger path
+
+---
+
+## Companion Module
+
+> **WORK IN PROGRESS** — a native Bitfocus Companion module for KUMA Timer is in development. In the meantime, use the OSC connection described below.
 
 ---
 

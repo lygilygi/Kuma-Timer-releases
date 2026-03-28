@@ -21,6 +21,18 @@
 
 ---
 
+## macOS Network Access Warning
+
+On first launch macOS may ask:
+
+> *"Do you want the application KUMA Timer to accept incoming network connections?"*
+
+Click **Allow**. KUMA Timer opens a UDP port for OSC control (default 8000). Without this permission OSC commands from Companion will not reach the app.
+
+If you clicked **Don't Allow** by mistake, go to **System Settings → Network → Firewall → Options** and add KUMA Timer manually.
+
+---
+
 ## macOS Security Warning (Gatekeeper)
 
 On first launch macOS may show this warning:

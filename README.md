@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.22
+**The Bold & Alert Clock System** · Version 1.5.23
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
@@ -180,7 +180,7 @@ The **SEND SMS** button (next to the screen selector) sends a one-line text mess
 3. Set how long it should stay on screen (1–600 seconds)
 4. Click **OK**
 
-The message appears over the progress bar in a framed box. If the text is too long to fit, it scrolls automatically. The button changes to **CANCEL SMS** while the message is showing — click it to dismiss early.
+The message appears over the progress bar in a framed box. It always scrolls from right to left, with the speed automatically adjusted so the last character exits the screen exactly when the duration ends. The button changes to **CANCEL SMS** while the message is showing — click it to dismiss early.
 
 ---
 

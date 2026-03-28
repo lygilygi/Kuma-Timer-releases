@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.23
+**The Bold & Alert Clock System** · Version 1.5.24
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
@@ -247,6 +247,31 @@ Open with the **⚙ cogwheel** button at the bottom left.
 
 ### Overtime
 - Behavior, message, background color, blink, OSC trigger path
+
+### LTC
+- Enable LTC receiver mode and select an audio input device
+
+---
+
+## LTC Receiver Mode
+
+KUMA Timer can read incoming **LTC (Linear Timecode / SMPTE)** from a sound card and display it on the output screen — useful as a timecode reader in broadcast or live production rigs.
+
+### How to set up
+
+1. Connect the LTC output of your timecode generator to the line input of your sound card
+2. Open **Settings → LTC**
+3. Check **Enable LTC Input** and select the correct audio input device
+4. Click **Save Settings**
+
+### What happens when LTC is active
+
+- The display window shows the incoming timecode as **HH:MM:SS:FF** in cyan
+- The status label in the control panel shows **● LTC RX**
+- All timer controls are disabled (Start, Stop, Warp, Manual input, Presets, ±1m) — KUMA is in read-only mode
+- To return to normal operation, go to Settings → LTC and uncheck Enable LTC Input
+
+> LTC is decoded in software directly from the audio stream — no additional hardware or drivers required beyond a standard audio input.
 
 ---
 

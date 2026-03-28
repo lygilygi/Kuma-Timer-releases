@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.21
+**The Bold & Alert Clock System** · Version 1.5.22
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
@@ -167,7 +167,20 @@ Use the **TIMER / CLOCK** toggle in the control panel:
 
 ## Screen Selection
 
-The dropdown at the top of the control panel lists all connected screens. Select a screen to move the display window there. On a second screen it goes fullscreen automatically; on the primary screen it opens as a regular window.
+The dropdown at the top of the control panel lists all connected screens with their resolution (e.g. `Screen 1  1920×1080  (Primary)`). Select a screen to move the display window there. On a second screen it goes fullscreen automatically; on the primary screen it opens as a regular window.
+
+---
+
+## Send Message to Screen
+
+The **SEND SMS** button (next to the screen selector) sends a one-line text message directly to the display window.
+
+1. Click **SEND SMS** — a dialog opens
+2. Type your message (max 300 characters)
+3. Set how long it should stay on screen (1–600 seconds)
+4. Click **OK**
+
+The message appears over the progress bar in a framed box. If the text is too long to fit, it scrolls automatically. The button changes to **CANCEL SMS** while the message is showing — click it to dismiss early.
 
 ---
 

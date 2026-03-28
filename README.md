@@ -21,6 +21,40 @@
 
 ---
 
+## macOS Security Warning (Gatekeeper)
+
+On first launch macOS may show this warning:
+
+![Gatekeeper warning](gatekeeper.png)
+
+This happens because KUMA Timer is not signed with an Apple Developer certificate ($99/year). The app is safe — this is a standard macOS restriction for indie software.
+
+**To open it anyway:**
+1. Right-click (or Control-click) `KUMA Timer.app`
+2. Select **Open** from the menu
+3. Click **Open** in the dialog that appears
+
+You only need to do this once. After that it launches normally.
+
+Alternatively, run this in Terminal:
+```bash
+xattr -cr "/Applications/KUMA Timer.app"
+```
+
+---
+
+## Support the Project
+
+![Buy me a coffee](coffee.png)
+
+KUMA Timer is **free for everyone** — no license, no subscription.
+
+If you find it useful in your productions, consider buying me a coffee. It helps cover costs like the Apple Developer Program fee needed to remove the Gatekeeper warning for everyone.
+
+☕ **[buymeacoffee.com/plygan](https://buymeacoffee.com/plygan)**
+
+---
+
 # User Guide
 
 ## Overview

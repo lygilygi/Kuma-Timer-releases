@@ -10,10 +10,11 @@
 | Platform | File |
 |---|---|
 | macOS Apple Silicon (M1/M2/M3/M4) | `KUMA-Timer-macOS-arm64.zip` |
-| macOS Intel | `KUMA-Timer-macOS-intel.zip` |
+| macOS Intel | `KUMA-Timer-macOS-arm64.zip` — runs via Rosetta 2 |
 | Windows 10/11 (64-bit) | `KUMA-Timer-Setup-Windows.exe` |
 
 **macOS:** unzip and drag `KUMA Timer.app` to Applications.
+**macOS Intel users:** download the arm64 version — macOS installs Rosetta 2 automatically on first launch, no action needed.
 **Windows:** run the installer — KUMA Timer will appear in the Start Menu.
 
 ---

@@ -30,13 +30,15 @@ On first launch macOS may show this warning:
 This happens because KUMA Timer is not signed with an Apple Developer certificate ($99/year). The app is safe — this is a standard macOS restriction for indie software.
 
 **To open it anyway:**
-1. Right-click (or Control-click) `KUMA Timer.app`
-2. Select **Open** from the menu
-3. Click **Open** in the dialog that appears
+1. Click **Done** to dismiss the warning
+2. Open **System Settings** → **Privacy & Security**
+3. Scroll down — you will see *"KUMA Timer was blocked"*
+4. Click **Open Anyway**
+5. Confirm with your Mac password or Touch ID
 
 You only need to do this once. After that it launches normally.
 
-Alternatively, run this in Terminal:
+Alternatively, run this in Terminal and then open the app:
 ```bash
 xattr -cr "/Applications/KUMA Timer.app"
 ```

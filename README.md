@@ -188,7 +188,7 @@ Enter the wall clock time at which the timer should reach zero. KUMA calculates 
 | **APPLY** | Activate warp — both APPLY buttons are replaced by CANCEL WARP |
 | **CANCEL WARP** | Restore normal 1-second tick speed |
 
-> Time Warp only works while the timer is running and has time remaining.
+> You can apply Time Warp before starting the timer — it will be active from the first tick. You can also change it while the timer is running.
 
 ---
 

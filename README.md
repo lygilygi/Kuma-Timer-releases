@@ -3,6 +3,8 @@
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
+![KUMA Timer](kuma.png)
+
 ## Download
 
 👉 **[Latest Release](https://github.com/lygilygi/Kuma-Timer-releases/releases/latest)**

@@ -1,5 +1,5 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.30
+**The Bold & Alert Clock System** · Version 1.5.31
 
 > A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
 
@@ -281,16 +281,21 @@ KUMA Timer can read incoming **LTC (Linear Timecode / SMPTE)** from a sound card
 
 A small floating window that stays **always on top** of all applications — including PowerPoint and Keynote in fullscreen. It never steals keyboard focus, so your clicker keeps working.
 
+When PVM is active the **external Display window is hidden** and the control panel shows **PRESENTER VIEW MODE ACTIVE** in the preview area.
+
 | Action | Result |
 |---|---|
 | Drag centre | Move the window |
-| Drag edge / corner | Resize (font auto-scales to fill) |
-| Hover | Shows controls: START/STOP · PAUSE · −1m · +1m |
-| Right-click | Brings the main control panel to the front |
+| Drag edge / corner | Resize — font auto-scales to fill |
+| Hover | Reveal controls: START/STOP · PAUSE · −1m · +1m |
+| Right-click | Bring the main control panel to the front |
 
-- Text and border colour follow the timer state (green → orange → red → cyan for LTC)
+- Border and text colour follow the timer state: green → orange → red (overtime)
+- In **LTC Receiver Mode** shows `HH:MM:SS:FF` in cyan
 - Window size and position are saved between sessions
-- The screen selector is hidden while PVM is active
+- Screen selector is hidden while PVM is active
+
+**Workflow:** set duration → enable PVM → open Keynote/PowerPoint → start slideshow → hover floating window → START.
 
 ---
 

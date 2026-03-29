@@ -1,7 +1,27 @@
 # KUMA TIMER
-**The Bold & Alert Clock System** · Version 1.5.34
+**The Bold & Alert Clock System** · Version 1.6.0 RC1
 
-> A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, and a full-screen projector output.
+> A professional countdown timer for live events, conferences, and broadcast — with OSC control, Companion integration, full-screen projector output, LTC timecode receiver, and Presenter View Mode.
+
+## What's New in 1.6.0
+
+### Presenter View Mode (PVM)
+A floating always-on-top window for laptop presenters. Stays visible over Keynote and PowerPoint in fullscreen without stealing keyboard focus — your clicker keeps working. Hover to reveal controls, right-click to bring the control panel back. Font auto-scales to any window size. Enable in **Settings → Display**.
+
+### LTC Receiver Mode
+Reads SMPTE Linear Timecode directly from any audio input (soundcard). In LTC mode the display shows `HH:MM:SS:FF` in cyan, all timer controls are hidden, and the cuesheet is automatically hidden. Configure in **Settings → LTC**.
+
+### Send Message to Screen (SMS)
+Type a short message with a duration — it scrolls across the display window as a marquee, replacing the progress bar. Scroll speed auto-adjusts so the last character exits the screen exactly when the duration ends. Cancel anytime with the CANCEL SMS button.
+
+### Web Mirror improvements
+- Fullscreen button (top-right corner, appears on hover) on the web mirror page
+- Status bar shows a **clickable link** (`● Web: 192.168.1.x:5555`) when the web server is active — click to open the mirror in your browser
+
+### Screen selector
+Dropdown now shows resolution alongside the name: `Primary  2560×1600` / `Ext 2  3840×2160`
+
+---
 
 ![KUMA Timer](kuma.png)
 
